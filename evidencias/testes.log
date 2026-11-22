@@ -1,0 +1,106 @@
+TAP version 13
+# Subtest: CT01 - aceita tabuleiro 6x6 vazio e incompleto
+ok 1 - CT01 - aceita tabuleiro 6x6 vazio e incompleto
+  ---
+  duration_ms: 1.9598
+  type: 'test'
+  ...
+# Subtest: CT02 - aceita solucao balanceada, sem trincas e sem duplicatas
+ok 2 - CT02 - aceita solucao balanceada, sem trincas e sem duplicatas
+  ---
+  duration_ms: 0.2629
+  type: 'test'
+  ...
+# Subtest: CT03 - rejeita dimensoes e valores invalidos
+ok 3 - CT03 - rejeita dimensoes e valores invalidos
+  ---
+  duration_ms: 0.6334
+  type: 'test'
+  ...
+# Subtest: CT04 - rejeita tres valores iguais consecutivos na linha
+ok 4 - CT04 - rejeita tres valores iguais consecutivos na linha
+  ---
+  duration_ms: 0.1956
+  type: 'test'
+  ...
+# Subtest: CT05 - rejeita tres valores iguais consecutivos na coluna
+ok 5 - CT05 - rejeita tres valores iguais consecutivos na coluna
+  ---
+  duration_ms: 0.2153
+  type: 'test'
+  ...
+# Subtest: CT06 - rejeita quatro ocorrencias do mesmo valor em uma linha
+ok 6 - CT06 - rejeita quatro ocorrencias do mesmo valor em uma linha
+  ---
+  duration_ms: 0.192
+  type: 'test'
+  ...
+# Subtest: CT07 - rejeita quatro ocorrencias do mesmo valor em uma coluna
+ok 7 - CT07 - rejeita quatro ocorrencias do mesmo valor em uma coluna
+  ---
+  duration_ms: 0.2084
+  type: 'test'
+  ...
+# Subtest: CT08 - rejeita linhas completas iguais
+ok 8 - CT08 - rejeita linhas completas iguais
+  ---
+  duration_ms: 0.1928
+  type: 'test'
+  ...
+# Subtest: CT09 - rejeita colunas completas iguais
+ok 9 - CT09 - rejeita colunas completas iguais
+  ---
+  duration_ms: 0.205
+  type: 'test'
+  ...
+# Subtest: CT10 - preserva pistas fixas e copia a entrada
+ok 10 - CT10 - preserva pistas fixas e copia a entrada
+  ---
+  duration_ms: 0.3998
+  type: 'test'
+  ...
+# Subtest: CT11 - jogada invalida nao altera o tabuleiro
+ok 11 - CT11 - jogada invalida nao altera o tabuleiro
+  ---
+  duration_ms: 2.5995
+  type: 'test'
+  ...
+# Subtest: CT12 - permite apagar celula editavel e protege a consulta
+ok 12 - CT12 - permite apagar celula editavel e protege a consulta
+  ---
+  duration_ms: 0.3268
+  type: 'test'
+  ...
+# Subtest: CT13 - rejeita indices e simbolos invalidos
+ok 13 - CT13 - rejeita indices e simbolos invalidos
+  ---
+  duration_ms: 0.3229
+  type: 'test'
+  ...
+# Subtest: CT14 - reconhece a conclusao ao preencher a ultima casa
+ok 14 - CT14 - reconhece a conclusao ao preencher a ultima casa
+  ---
+  duration_ms: 0.2616
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 171.6764
+# start of coverage report
+# ----------------------------------------------------------------
+# file            | line % | branch % | funcs % | uncovered lines
+# ----------------------------------------------------------------
+# src             |        |          |         | 
+#  sudoku.js      | 100.00 |   100.00 |  100.00 | 
+# test            |        |          |         | 
+#  sudoku.test.js | 100.00 |   100.00 |  100.00 | 
+# ----------------------------------------------------------------
+# all files       | 100.00 |   100.00 |  100.00 | 
+# ----------------------------------------------------------------
+# end of coverage report
