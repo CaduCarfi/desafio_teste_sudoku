@@ -1,7 +1,7 @@
 # desafio_teste_sudoku — Sudoku Binário 6×6
 
 **Autor:** Carlos Eduardo Carfi Silva
-**RA:** 24000663-2 — UniCesumar, Engenharia de Software (4º período)
+**RA:** 24000663-2
 
 ## O que é o Sudoku Binário
 
@@ -75,7 +75,3 @@ puzzle.jogar(0, 2, 1); // lança erro: três 1s em sequência na linha 0
 ## Observação sobre a entrega
 
 Entrega individual. Repositório nomeado `desafio_teste_sudoku`, conforme padrão exigido no edital da disciplina.
-
-## Colaborador(es)
-
-- Carlos Eduardo Carfi Silva — RA 24000663-2
